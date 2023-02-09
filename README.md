@@ -30,4 +30,7 @@ python3 recast-cve-by-id.py -h
 2. Indent in next block (lines 67-83)
 
 ## IMPROVEMENTS
-> Need to write logic to read CVE to recast from a YAML/JSON file stored in repo
+```
+1. Need to write logic to read CVE to recast from a YAML/JSON file stored in repo
+2. Need to separate global variables into a config.py to separate URLs/Environments/Keys from script
+```
