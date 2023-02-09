@@ -11,9 +11,7 @@
 | CVE-2021-26291 | Not affected as we use JFrog as artifactory |
 | CVE-2022-41862 | RESERVED - reassess every 30 days | 
 
-
 ## How to run
-
 ```
 export DT_PROD_API_KEY="KEY"
 export DT_RC_API_KEY="KEY"
@@ -26,3 +24,10 @@ python3 recast-cve-by-id.py -h
 
    Example: python3 app.py rc nvd cve-2022-22965
 ```
+
+## Version Specific Recasts:
+1. Uncomment line (61-65)
+2. Indent in next block (lines 67-83)
+
+## IMPROVEMENTS
+> Need to write logic to read CVE to recast from a YAML/JSON file stored in repo
